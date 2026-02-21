@@ -9,3 +9,9 @@ User can save and retrieve website login details locally.
 - Generate secure random passwords 
 - Store data locally (text file)
 - Simple GUI interface 
+- Search for saved credentials by website name
+
+## How It Works 
+- Each website is stored as a key in a JSON dictionary
+- Email and password are stored as values inside the key
+- Users can search for a website to retrieve saved login details 
